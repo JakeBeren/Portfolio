@@ -1,0 +1,12 @@
+Short-Range LiDAR Detection System Using Raspberry Pi and Arduino Integration
+
+This project aimed to create a compact, short-range LiDAR detection system for real-time obstacle detection using a Raspberry Pi, an Arduino Uno, and a servo-mounted LiDAR sensor. 
+The system was built to demonstrate low-cost proximity scanning by rotating the sensor with a servo motor and transmitting distance data to the Pi for visualization and logging.
+
+The project used a polar scanning model to collect 180-degree sweep data in front of the device, with the Arduino handling servo control and time-of-flight measurements. 
+Data was processed by the Raspberry Pi using Python, where simple statistical thresholds and visual feedback were used to evaluate detection accuracy. 
+Basic tests against known distances showed the system was accurate within ±2 cm for targets under 2 meters.
+
+This project demonstrated the feasibility of a DIY LiDAR scanner using affordable components. 
+Future improvements include integrating real-time plotting, adding object classification, and expanding the sweep range for full 360-degree coverage. 
+Upgrading the LiDAR module to improve resolution and extending wireless communication capabilities could also enhance deployment in robotics and automation contexts.
